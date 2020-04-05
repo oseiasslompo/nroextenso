@@ -1,0 +1,20 @@
+{
+    "name": "oseias/nroextenso",
+    "description": "Converte número por extenso, em português, com a pontuação correta.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Oseias Slompo",
+            "email": "oseiasslompo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+	"autoload": {
+		"psr-4":{
+			"nroextenso\\": "classes/"
+		}
+
+	}
+}
